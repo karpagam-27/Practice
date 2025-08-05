@@ -24,7 +24,7 @@ const Counteffect = () => {
     fetchproduct();
   }, []);
 
-  console.log("Rendering", product);
+
 
   const Handlechange = () => {
     setCount(Count + 1);
